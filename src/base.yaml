@@ -77,7 +77,7 @@ cv:
 
     Umiejętności:
       - label: Programowanie i narzędzia
-        details: C++, Python, Bash, Git, Nix, Docker, CMake, uv
+        details: C++, Python, Bash, Git, Nix, Docker, CMake, uv, Jenkins
 
       - label: Przetwarzanie obrazu
         details: OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg
