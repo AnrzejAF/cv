@@ -154,11 +154,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.typ
-    pdf_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.pdf
-    markdown_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.md
-    html_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.html
-    png_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.png
+    typst_path: ../cv_files/NAME_IN_SNAKE_CASE_CV_en.typ
+    pdf_path: ../cv_files/NAME_IN_SNAKE_CASE_CV_en.pdf
+    markdown_path: ../cv_files/NAME_IN_SNAKE_CASE_CV_en.md
+    html_path: ../cv_files/NAME_IN_SNAKE_CASE_CV_en.html
+    png_path: ../cv_files/NAME_IN_SNAKE_CASE_CV_en.png
     dont_generate_pdf: false
     dont_generate_markdown: true
     dont_generate_html: true

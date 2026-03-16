@@ -1,4 +1,4 @@
 .devenv
 .direnv
-rendercv_output
+cv_files
 .devenv.flake.nix
