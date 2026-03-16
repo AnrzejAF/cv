@@ -1,27 +1,25 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Andrzej Fijało
-  headline:
+  headline: Programista, Inżynier R&D / MLOps
   location: Gdańsk
   email: andrzejfijalo@gmail.com
-  photo:
   phone: +48 796 630 960
-  website:
+
   social_networks:
     - network: LinkedIn
       username: andrzejfijalo
     - network: GitHub
       username: AnrzejAF
-  custom_connections:
+
   sections:
     Wykształcenie:
       - institution: Politechnika Gdańska
         area: Informatyka
         faculty: Wydział Elektroniki, Telekomunikacji i Informatyki
         degree: mgr inż.
-        date:
-        start_date: 2023-10
-        end_date: 2025-09
+        start_date: 2023
+        end_date: 2025
         location: Gdańsk
         summary: |-
           Specjalizacja: **Systemy i technologie mobilne**
@@ -32,74 +30,70 @@ cv:
         area: Automatyka i robotyka
         faculty: Wydział Elektrotechniki i Automatyki
         degree: inż.
-        date:
-        start_date: 2018-10
-        end_date: 2022-02
+        start_date: 2018
+        end_date: 2022
         location: Gdańsk
         summary: |-
           Profil: **Automatyka i robotyka**
         highlights:
           # - Highlight
 
-    Doświaczenie zawodowe:
+    Doświadczenie zawodowe:
       - company: Advanced Protection Systems
-        position: Inżynier ds. rozwoju oprogramowania
-        date:
-        start_date: 2023-06
+        position: Inżynier R&D, programista / MLOps
+        start_date: 2022
         end_date: present
         location: Gdynia
-        summary: System autonomicznych bezzałogowych statków powietrznych (UAV)
+        summary: |-
+          Praca nad systemami autonomicznymi i przetwarzaniem obrazu dla systemów bezzałogowych, w tym rozwój MLOps i potoków ML
         highlights:
-          - Projektowanie i implementowanie architektury systemu
-          - Badania i implementacja algorytmów planowania trajektorii, naprowadzania i fuzji sensorów
-          
-          - Tworzenie środowiska symulacyjnego, modeli dronów i sensorów oraz narzędzi do scenariuszy testowych
-          - Projekt i implementacja maszyny stanów UAV z użyciem bibliotek zgodnych z UML
+          - Rozwój i optymalizacja potoków przetwarzania obrazu (detekcja obiektów, odometria wizyjna).
+          - Projektowanie i optymalizacja potoków wideo w GStreamer i DeepStream na platformach NVIDIA Jetson.
+          - Integracja rozwiązań AI (YOLO, TensorRT, OpenCV) w systemach embedded
+          - Refaktoryzacja kodu do Kedro + MLflow, konfiguracja zewnętrznego logowania, deployment edge-AI, wersjonowanie i wizualizacje wyników.
+          - Rozwój self-hosted MLOps z Dockerem oraz MLflow do śledzenia treningu modeli.
+          - Integracja uwierzytelnienia Auth0 i OIDC dla MLflow z rolami i grupami.
+          - Debugowanie sprzętu oraz integracja nowych sensorów.
+          - Analiza i optymalizacja wykorzystania zasobów systemowych (CPU, GPU, RAM).
+          - Tworzenie narzędzi deweloperskich usprawniających pracę zespołu.
+          - Research technologiczny i przygotowywanie dokumentacji technicznej.
+          - Mentorowanie stażystów.
 
-          - Implementacja biblioteki ułatwiającej tworzenie potoków przetwarzania obrazu
-          - Implementacja podsystemu OSD do analizy lotów
-
-          - Standaryzacja środowiska deweloperskiego (Docker; powtarzalność i szybkie wdrażanie nowych osób)
-          - Wdrażenie standardów kodu, refaktoryzację istniejącego kodu
-          - Tworzenie narzędzi CLI automatyzujących powszechne czynności deweloperskie
-
-          - Wprowadzenie i utrzymanie infrastruktury CI/CD opartej na Jenkinsie i Dockerze
-
-      - company: Intel Technology Poland
-        position: Stażysta ds. rozwoju oprogramowania (FTE 70%)
-        date:
-        start_date: 2021-08
-        end_date: 2022-08
+      - company: VAVE Light
+        position: Lider zespołu rozwoju produktu
+        start_date: 2018
+        end_date: 2022
         location: Gdańsk
-        summary: Praca nad oprogramowaniem układowym UEFI procesorów serwerowych w międzynarodowym zespole 
+        summary: |-
+          Rozwój produktów technologicznych w małym zespole inżynierskim.
         highlights:
-          - Implementowanie interfesju zintegrowanego kontolera pamięci RAM z regularnym kontaktem z zespołem architektów z USA
-          - Projekt i implementacja rozszerzenia do gMock pozwalającego na tworzenie obiektowych atrap funkcji języka C w czasie wykonywania testów jednostkowych
-   
+          - Projektowanie i wdrażanie nowych produktów od koncepcji do produkcji.
+          - Optymalizacja procesów technologicznych (montaż, testy, kontrola jakości).
+          - Projektowanie obudów oraz dobór komponentów elektronicznych i mechanicznych.
+          - Testy funkcjonalne i środowiskowe produktów.
+          - Tworzenie dokumentacji technicznej i produkcyjnej.
+          - Współpraca z dostawcami i podwykonawcami przy prototypowaniu i produkcji.
+          - Analiza wymagań klientów i dostosowanie produktów.
+
     Umiejętności:
-      - label: Języki programowania
-        details: C++/C, C#, Python, Java, JavaScript/TypeScript, Bash, Nix, SQL, Ada
+      - label: Programowanie i narzędzia
+        details: C++, Python, Bash, Git, Nix, Docker, CMake, uv
 
-      - label: Platformy i biblioteki
-        details: .NET, OpenMP, ROS/ROS2, Gazebo, PX4 Autopilot, OpenCV
+      - label: Przetwarzanie obrazu
+        details: OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg
 
-      - label: Narzędzia
-        details: Git, CMake, Conan, GDB
+      - label: Robotyka i systemy embedded
+        details: NVIDIA Jetson, Linux, ROS, V4L2, OpenFOAM
 
-      - label: Infrastruktura
-        details: Docker, Docker Swarm/Kubernetes, NixOS, Jenkins
+      - label: Uczenie maszynowe i MLOps
+        details: PyTorch, MLflow, Kedro, ZenML, TensorRT
 
-      - label: Uczenie maszynowe
-        details: PyTorch, DeepStream
+      - label: DevOps i infrastruktura
+        details: Docker, NixOS, MLflow self-hosted, Nginx, Auth0/OIDC, edge-AI deployment
 
-      - label: Paradygmaty i techniki
-        details: Object Oriented Programming (OOP), wzorce projektowe, programowanie wielowątkowe, programowanie asynchroniczne, korutyny, programowanie sterowane zdarzeniami, architektura rozproszona/mikroserwisów, Clean Architecture, Domain Driven Design (DDD), mapowanie obiektowo-relacyjne, REST, CQRS, Event Sourcing 
-
-      - label: Inne
-        details: Linux, sieci komputerowe i protokoły komunikacyjne, CI/CD, bazy danych SQL i NoSQL (PostgreSQL, MongoDB), UML
-        
       - label: Języki naturalne
-        details: polski (ojczysty), angielski (C1)
+        details: polski (ojczysty), angielski (B2)
+
 
 design:
   theme: sb2nov
@@ -112,7 +106,7 @@ design:
   #   show_footer: true
   #   show_top_note: true
   colors:
-    # body: rgb(0, 0, 0)
+    body: rgb(0, 0, 0)
     # name: rgb(0, 79, 144)
     # headline: rgb(0, 79, 144)
     # connections: rgb(0, 79, 144)
@@ -122,14 +116,14 @@ design:
     # top_note: rgb(128, 128, 128)
   typography:
     line_spacing: 0.6em
-    # alignment: justified
-  #   date_and_location_column_alignment: right
-  #   font_family:
-  #     body: Source Sans 3
-  #     name: Source Sans 3
-  #     headline: Source Sans 3
-  #     connections: Source Sans 3
-  #     section_titles: Source Sans 3
+    alignment: justified
+    date_and_location_column_alignment: right
+    # font_family:
+    #   body: Source Sans 3
+    #   name: Source Sans 3
+    #   headline: Source Sans 3
+    #   connections: Source Sans 3
+    #   section_titles: Source Sans 3
   #   font_size:
   #     body: 10pt
   #     name: 30pt
