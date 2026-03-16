@@ -1,0 +1,167 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Andrzej Fijało
+  headline: Programmer, R&D / MLOps Engineer
+  location: Gdańsk
+  email: andrzejfijalo@gmail.com
+  phone: +48 796 630 960
+
+  social_networks:
+    - network: LinkedIn
+      username: andrzejfijalo
+    - network: GitHub
+      username: AnrzejAF
+
+  sections:
+    Education:
+      - institution: Gdańsk University of Technology
+        area: Computer Science
+        faculty: Faculty of Electronics, Telecommunications and Informatics
+        degree: MSc Eng.
+        start_date: 2023
+        end_date: 2025
+        location: Gdańsk
+        summary: |-
+          Specialization: **Mobile Systems and Technologies**
+        highlights:
+          # - Highlight
+
+      - institution: Gdańsk University of Technology
+        area: Automation and Robotics
+        faculty: Faculty of Electrical and Control Engineering
+        degree: Eng.
+        start_date: 2018
+        end_date: 2022
+        location: Gdańsk
+        summary: |-
+          Profile: **Automation and Robotics**
+        highlights:
+          # - Highlight
+
+    Work Experience:
+      - company: Advanced Protection Systems
+        position: R&D Engineer, Software Engineer / MLOps
+        start_date: 2022
+        end_date: present
+        location: Gdynia
+        summary: |-
+          Work on autonomous systems and image processing for unmanned systems, including development of MLOps and ML pipelines.
+        highlights:
+          - Development and optimization of image processing pipelines (object detection, visual odometry).
+          - Designing and optimizing video pipelines in GStreamer and DeepStream on NVIDIA Jetson platforms.
+          - Integration of AI solutions (YOLO, TensorRT, OpenCV) in embedded systems.
+          - Refactoring codebase to Kedro + MLflow, configuring external logging, edge-AI deployment, model versioning and result visualizations.
+          - Building self-hosted MLOps using Docker and MLflow for tracking model training.
+          - Integrating Auth0 / OIDC authentication for MLflow with roles and groups.
+          - Hardware debugging and integration of new sensors.
+          - Analysis and optimization of system resource usage (CPU, GPU, RAM).
+          - Creating developer tools to improve team workflow.
+          - Technology research and preparing technical documentation.
+          - Mentoring interns.
+
+      - company: VAVE Light
+        position: Product Development Team Lead
+        start_date: 2018
+        end_date: 2022
+        location: Gdańsk
+        summary: |-
+          Development of technology products in a small engineering team.
+        highlights:
+          - Designing and bringing new products from concept to production.
+          - Optimizing manufacturing processes (assembly, testing, quality control).
+          - Designing enclosures and selecting electronic and mechanical components.
+          - Performing functional and environmental product testing.
+          - Creating technical and production documentation.
+          - Collaborating with suppliers and subcontractors on prototyping and production.
+          - Analyzing customer requirements and adapting products.
+
+    Skills:
+      - label: Programming & Tools
+        details: C++, Python, Bash, Git, Nix, Docker, CMake, uv, Jenkins
+
+      - label: Image Processing
+        details: OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg
+
+      - label: Robotics & Embedded Systems
+        details: NVIDIA Jetson, Linux, ROS, V4L2, OpenFOAM
+
+      - label: Machine Learning & MLOps
+        details: PyTorch, MLflow, Kedro, ZenML, TensorRT
+
+      - label: DevOps & Infrastructure
+        details: Docker, NixOS, MLflow self-hosted, Nginx, Auth0/OIDC, edge-AI deployment
+
+      - label: Natural Languages
+        details: polish (native), english (B2)
+
+design:
+  theme: sb2nov
+  colors:
+    body: rgb(0, 0, 0)
+    footer: rgb(0, 0, 0)
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, **AREA**
+        FACULTY
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: '**DEGREE**'
+      date_and_location_column: |-
+        LOCATION
+        DATE
+
+locale:
+  language: english
+  last_updated: Last updated
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  month_names:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+
+settings:
+  render_command:
+    design:
+    locale:
+    typst_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.typ
+    pdf_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.pdf
+    markdown_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.md
+    html_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.html
+    png_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_en.png
+    dont_generate_pdf: false
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_png: true
+  bold_keywords: []

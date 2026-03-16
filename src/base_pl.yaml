@@ -266,11 +266,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    typst_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_pl.typ
+    pdf_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_pl.pdf
+    markdown_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_pl.md
+    html_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_pl.html
+    png_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV_pl.png
     dont_generate_pdf: false
     dont_generate_markdown: true
     dont_generate_html: true
