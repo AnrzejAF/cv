@@ -171,7 +171,7 @@
 
     - Data and model versioning, CVAT usage for dataset annotation and management.
 
-    - Refactoring codebase to Kedro + MLflow, configuring external logging, edge-AI depployment, model versioning and result visualizations.
+    - Refactoring codebase to Kedro + MLflow, configuring external logging, edge-AI deployment, model versioning and result visualizations.
 
     - Building self-hosted MLOps using Docker and MLflow for tracking model training.
 
