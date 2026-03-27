@@ -47,14 +47,15 @@ cv:
         summary: |-
           Work on autonomous systems and image processing for unmanned systems, including development of MLOps and ML pipelines.
         highlights:
-          - Development and optimization of image processing pipelines (object detection, visual odometry).
           - Designing and optimizing video pipelines in GStreamer and DeepStream on NVIDIA Jetson platforms.
           - Integration of AI solutions (YOLO, TensorRT, OpenCV) in embedded systems.
-          - Refactoring codebase to Kedro + MLflow, configuring external logging, edge-AI deployment, model versioning and result visualizations.
+          - Development and optimization of image processing pipelines (object detection, visual odometry).
+          - Data and model versioning, CVAT usage for dataset annotation and management.
+          - Refactoring codebase to Kedro + MLflow, configuring external logging, edge-AI depployment, model versioning and result visualizations.
           - Building self-hosted MLOps using Docker and MLflow for tracking model training.
           - Integrating Auth0 / OIDC authentication for MLflow with roles and groups.
           - Hardware debugging and integration of new sensors.
-          - Analysis and optimization of system resource usage (CPU, GPU, RAM).
+          - Analysis and optimization of system resource usage (CPU, GPU, VRAM).
           - Creating developer tools to improve team workflow.
           - Technology research and preparing technical documentation.
           - Mentoring interns.
