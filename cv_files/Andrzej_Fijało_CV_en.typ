@@ -6,7 +6,7 @@
   name: "Andrzej Fijało",
   title: "Andrzej Fijało - CV",
   footer: context { [#emph[Andrzej Fijało -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated Mar 2026] ],
+  top-note: [ #emph[Last updated Jun 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 27,
+    month: 6,
+    day: 10,
   ),
 )
 
@@ -168,6 +168,8 @@
     - Integration of AI solutions (YOLO, TensorRT, OpenCV) in embedded systems.
 
     - Development and optimization of image processing pipelines (object detection, visual odometry).
+
+    - Development of custom video tracking applications using DeepStream SDK.
 
     - Data and model versioning, CVAT usage for dataset annotation and management.
 

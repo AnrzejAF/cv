@@ -50,6 +50,7 @@ cv:
           - Rozwój i optymalizacja potoków przetwarzania obrazu (detekcja obiektów, odometria wizyjna).
           - Projektowanie i optymalizacja potoków wideo w GStreamer i DeepStream na platformach NVIDIA Jetson.
           - Integracja rozwiązań AI (YOLO, TensorRT, OpenCV) w systemach embedded
+          - Tworzenie niestandardowych aplikacji do śledzenia wideo z użyciem DeepStream SDK.
           - Wersjonowanie danych i modeli, użycie CVAT do adnotacji i zarządzania zbiorami danych.
           - Refaktoryzacja kodu do Kedro + MLflow, konfiguracja zewnętrznego logowania, deployment edge-AI, wersjonowanie i wizualizacje wyników.
           - Rozwój self-hosted MLOps z Dockerem oraz MLflow do śledzenia treningu modeli.

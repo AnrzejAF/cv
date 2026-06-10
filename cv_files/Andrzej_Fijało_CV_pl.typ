@@ -6,7 +6,7 @@
   name: "Andrzej Fijało",
   title: "Andrzej Fijało - CV",
   footer: context { [#emph[Andrzej Fijało -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Ostatnia aktualizacja mar 2026] ],
+  top-note: [ #emph[Ostatnia aktualizacja cze 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 27,
+    month: 6,
+    day: 10,
   ),
 )
 
@@ -168,6 +168,8 @@
     - Projektowanie i optymalizacja potoków wideo w GStreamer i DeepStream na platformach NVIDIA Jetson.
 
     - Integracja rozwiązań AI (YOLO, TensorRT, OpenCV) w systemach embedded
+
+    - Tworzenie niestandardowych aplikacji do śledzenia wideo z użyciem DeepStream SDK.
 
     - Wersjonowanie danych i modeli, użycie CVAT do adnotacji i zarządzania zbiorami danych.
 
