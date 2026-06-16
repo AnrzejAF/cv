@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 10,
+    day: 16,
   ),
 )
 
@@ -161,13 +161,23 @@
 
   ],
   main-column-second-row: [
-    #summary[Work on autonomous systems and image processing for unmanned systems, including development of MLOps and ML pipelines.]
+    #summary[Work on autonomous systems, robotics, and image processing for unmanned systems, including development of MLOps and ML pipelines.]
+
+    - Work on an interceptor drone for neutralizing airborne objects.
+
+    - Development and optimization of image processing pipelines (object detection, visual odometry).
 
     - Designing and optimizing video pipelines in GStreamer and DeepStream on NVIDIA Jetson platforms.
 
-    - Integration of AI solutions (YOLO, TensorRT, OpenCV) in embedded systems.
+    - Software-side integration of sensors, including thermal cameras, and data collection for algorithm development and validation.
 
-    - Development and optimization of image processing pipelines (object detection, visual odometry).
+    - Work with robotic systems and ROS in embedded environments.
+
+    - Designing processing pipelines for sensor and vision data.
+
+    - Took ownership of video detection development within the company.
+
+    - Integration of AI solutions (YOLO, TensorRT, OpenCV) in embedded systems.
 
     - Development of custom video tracking applications using DeepStream SDK.
 
@@ -176,8 +186,6 @@
     - Refactoring codebase to Kedro + MLflow, configuring external logging, edge-AI deployment, model versioning and result visualizations.
 
     - Building self-hosted MLOps using Docker and MLflow for tracking model training.
-
-    - Integrating Auth0 \/ OIDC authentication for MLflow with roles and groups.
 
     - Hardware debugging and integration of new sensors.
 
@@ -229,11 +237,11 @@
 
 #strong[Programming & Tools:] C++, Python, Bash, Git, Nix, Docker, CMake, uv, Jenkins
 
-#strong[Image Processing:] OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg
+#strong[Image Processing:] OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg, thermal cameras
 
-#strong[Robotics & Embedded Systems:] NVIDIA Jetson, Linux, ROS, V4L2, OpenFOAM
+#strong[Robotics & Embedded Systems:] NVIDIA Jetson, Linux, ROS, V4L2, thermal cameras, OpenFOAM
 
-#strong[Machine Learning & MLOps:] PyTorch, MLflow, Kedro, ZenML, TensorRT
+#strong[Machine Learning & MLOps:] PyTorch, MLflow, Kedro, TensorRT
 
 #strong[DevOps & Infrastructure:] Docker, NixOS, MLflow self-hosted, Nginx, Auth0\/OIDC, edge-AI deployment
 

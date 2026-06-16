@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 10,
+    day: 16,
   ),
 )
 
@@ -161,13 +161,23 @@
 
   ],
   main-column-second-row: [
-    #summary[Praca nad systemami autonomicznymi i przetwarzaniem obrazu dla systemów bezzałogowych, w tym rozwój MLOps i potoków ML]
+    #summary[Praca nad systemami autonomicznymi, robotyką i przetwarzaniem obrazu dla systemów bezzałogowych, w tym rozwój MLOps i potoków ML]
+
+    - Praca nad dronem przechwytującym do neutralizacji obiektów latających.
 
     - Rozwój i optymalizacja potoków przetwarzania obrazu (detekcja obiektów, odometria wizyjna).
 
     - Projektowanie i optymalizacja potoków wideo w GStreamer i DeepStream na platformach NVIDIA Jetson.
 
-    - Integracja rozwiązań AI (YOLO, TensorRT, OpenCV) w systemach embedded
+    - Integracja sensorów, w tym kamer termowizyjnych, po stronie software'u oraz zbieranie danych do rozwoju i walidacji algorytmów.
+
+    - Praca z systemami robotycznymi i ROS w środowiskach embedded.
+
+    - Projektowanie potoków przetwarzania danych sensorycznych i wizyjnych.
+
+    - Objęcie roli osoby odpowiedzialnej za rozwój wideodetekcji w firmie.
+
+    - Integracja rozwiązań AI (YOLO, TensorRT, OpenCV) w systemach embedded.
 
     - Tworzenie niestandardowych aplikacji do śledzenia wideo z użyciem DeepStream SDK.
 
@@ -176,8 +186,6 @@
     - Refaktoryzacja kodu do Kedro + MLflow, konfiguracja zewnętrznego logowania, deployment edge-AI, wersjonowanie i wizualizacje wyników.
 
     - Rozwój self-hosted MLOps z Dockerem oraz MLflow do śledzenia treningu modeli.
-
-    - Integracja uwierzytelnienia Auth0 i OIDC dla MLflow z rolami i grupami.
 
     - Debugowanie sprzętu oraz integracja nowych sensorów.
 
@@ -229,11 +237,11 @@
 
 #strong[Programowanie i narzędzia:] C++, Python, Bash, Git, Nix, Docker, CMake, uv, Jenkins
 
-#strong[Przetwarzanie obrazu:] OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg
+#strong[Przetwarzanie obrazu:] OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg, kamery termowizyjne
 
-#strong[Robotyka i systemy embedded:] NVIDIA Jetson, Linux, ROS, V4L2, OpenFOAM
+#strong[Robotyka i systemy embedded:] NVIDIA Jetson, Linux, ROS, V4L2, kamery termowizyjne, OpenFOAM
 
-#strong[Uczenie maszynowe i MLOps:] PyTorch, MLflow, Kedro, ZenML, TensorRT
+#strong[Uczenie maszynowe i MLOps:] PyTorch, MLflow, Kedro, TensorRT
 
 #strong[DevOps i infrastruktura:] Docker, NixOS, MLflow self-hosted, Nginx, Auth0\/OIDC, edge-AI deployment
 

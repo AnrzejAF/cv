@@ -45,16 +45,20 @@ cv:
         end_date: present
         location: Gdynia
         summary: |-
-          Work on autonomous systems and image processing for unmanned systems, including development of MLOps and ML pipelines.
+          Work on autonomous systems, robotics, and image processing for unmanned systems, including development of MLOps and ML pipelines.
         highlights:
-          - Designing and optimizing video pipelines in GStreamer and DeepStream on NVIDIA Jetson platforms.
-          - Integration of AI solutions (YOLO, TensorRT, OpenCV) in embedded systems.
+          - Work on an interceptor drone for neutralizing airborne objects.
           - Development and optimization of image processing pipelines (object detection, visual odometry).
+          - Designing and optimizing video pipelines in GStreamer and DeepStream on NVIDIA Jetson platforms.
+          - Software-side integration of sensors, including thermal cameras, and data collection for algorithm development and validation.
+          - Work with robotic systems and ROS in embedded environments.
+          - Designing processing pipelines for sensor and vision data.
+          - Took ownership of video detection development within the company.
+          - Integration of AI solutions (YOLO, TensorRT, OpenCV) in embedded systems.
           - Development of custom video tracking applications using DeepStream SDK.
           - Data and model versioning, CVAT usage for dataset annotation and management.
           - Refactoring codebase to Kedro + MLflow, configuring external logging, edge-AI deployment, model versioning and result visualizations.
           - Building self-hosted MLOps using Docker and MLflow for tracking model training.
-          - Integrating Auth0 / OIDC authentication for MLflow with roles and groups.
           - Hardware debugging and integration of new sensors.
           - Analysis and optimization of system resource usage (CPU, GPU, VRAM).
           - Creating developer tools to improve team workflow.
@@ -82,13 +86,13 @@ cv:
         details: C++, Python, Bash, Git, Nix, Docker, CMake, uv, Jenkins
 
       - label: Image Processing
-        details: OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg
+        details: OpenCV, GStreamer, DeepStream, YOLO, CUDA, VPI, FFmpeg, thermal cameras
 
       - label: Robotics & Embedded Systems
-        details: NVIDIA Jetson, Linux, ROS, V4L2, OpenFOAM
+        details: NVIDIA Jetson, Linux, ROS, V4L2, thermal cameras, OpenFOAM
 
       - label: Machine Learning & MLOps
-        details: PyTorch, MLflow, Kedro, ZenML, TensorRT
+        details: PyTorch, MLflow, Kedro, TensorRT
 
       - label: DevOps & Infrastructure
         details: Docker, NixOS, MLflow self-hosted, Nginx, Auth0/OIDC, edge-AI deployment
